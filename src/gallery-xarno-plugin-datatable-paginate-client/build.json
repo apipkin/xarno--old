@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-datatable-paginate-client",
+    "builds": {
+        "gallery-xarno-plugin-datatable-paginate-client": {
+            "jsfiles": [
+                "datatable-paginate-client.js"
+            ]
+        }
+    }
+}

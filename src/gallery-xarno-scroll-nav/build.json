@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-scroll-nav",
+    "builds": {
+        "gallery-xarno-scroll-nav": {
+            "jsfiles": [
+                "scroll-nav.js"
+            ]
+        }
+    }
+}

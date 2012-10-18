@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-datatable-sort",
+    "builds": {
+        "gallery-xarno-plugin-datatable-sort": {
+            "jsfiles": [
+                "datatable-sort.js"
+            ]
+        }
+    }
+}

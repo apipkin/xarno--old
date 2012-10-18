@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-progress-bar",
+    "builds": {
+        "gallery-xarno-progress-bar": {
+            "jsfiles": [
+                "progress-bar.js"
+            ]
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-title-scroll",
+    "builds": {
+        "gallery-xarno-plugin-title-scroll": {
+            "jsfiles": [
+                "title-scroll.js"
+            ]
+        }
+    }
+}

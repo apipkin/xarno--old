@@ -1,0 +1,9 @@
+{
+    "gallery-xarno-plugin-calendar-controls": {
+        "requires": [
+            "plugin",
+            "base-build",
+            "gallery-xarno-button"
+        ]
+    }
+}

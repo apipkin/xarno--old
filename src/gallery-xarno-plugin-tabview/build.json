@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-tabview",
+    "builds": {
+        "gallery-xarno-plugin-tabview": {
+            "jsfiles": [
+                "tabview.js"
+            ]
+        }
+    }
+}

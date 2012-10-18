@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-datatable-resize",
+    "builds": {
+        "gallery-xarno-plugin-datatable-resize": {
+            "jsfiles": [
+                "datatable-resize.js"
+            ]
+        }
+    }
+}

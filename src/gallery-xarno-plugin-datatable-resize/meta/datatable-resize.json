@@ -1,0 +1,9 @@
+{
+    "gallery-xarno-plugin-datatable-resize": {
+        "requires": [
+            "plugin",
+            "dd-constrain",
+            "dd-plugin"
+        ]
+    }
+}

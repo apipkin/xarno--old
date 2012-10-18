@@ -1,0 +1,11 @@
+{
+    "gallery-xarno-text-resizer": {
+        "requires": [
+            "node",
+            "event",
+            "cookie",
+            "base-build",
+            "plugin"
+        ]
+    }
+}

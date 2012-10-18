@@ -1,0 +1,9 @@
+{
+    "gallery-xarno-plugin-datatable-sort": {
+        "requires": [
+            "plugin",
+            "event",
+            "selector-css3"
+        ]
+    }
+}

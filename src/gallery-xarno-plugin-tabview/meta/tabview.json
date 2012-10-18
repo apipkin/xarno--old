@@ -1,0 +1,12 @@
+{
+    "gallery-xarno-plugin-tabview": {
+        "requires": [
+            "plugin",
+            "base-build",
+            "node",
+            "event",
+            "history"
+        ],
+        "skinnable": true
+    }
+}

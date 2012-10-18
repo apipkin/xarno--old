@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-datatable-filter",
+    "builds": {
+        "gallery-xarno-plugin-datatable-filter": {
+            "jsfiles": [
+                "datatable-filter.js"
+            ]
+        }
+    }
+}

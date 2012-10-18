@@ -1,9 +1,0 @@
-{
-    "gallery-xarno-calendar-controls": {
-        "requires": [
-            "plugin",
-            "base-build",
-            "gallery-xarno-button"
-        ]
-    }
-}

@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-timer",
+    "builds": {
+        "gallery-xarno-timer": {
+            "jsfiles": [
+                "timer.js"
+            ]
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "gallery-xarno-scroll-nav": {
+        "requires": [
+            "node",
+            "event",
+            "anim",
+            "plugin",
+            "base"
+        ]
+    }
+}

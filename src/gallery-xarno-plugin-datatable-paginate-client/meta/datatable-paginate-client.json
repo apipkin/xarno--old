@@ -1,0 +1,7 @@
+{
+    "gallery-xarno-plugin-datatable-paginate-client": {
+        "requires": [
+            "gallery-xarno-plugin-paginate-base"
+        ]
+    }
+}

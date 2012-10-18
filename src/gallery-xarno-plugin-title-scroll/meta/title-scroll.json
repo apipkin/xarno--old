@@ -1,0 +1,8 @@
+{
+    "gallery-xarno-plugin-title-scroll": {
+        "requires": [
+            "plugin",
+            "gallery-xarno-timer"
+        ]
+    }
+}

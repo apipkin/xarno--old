@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-datatable-row-select",
+    "builds": {
+        "gallery-xarno-plugin-datatable-row-select": {
+            "jsfiles": [
+                "datatable-row-select.js"
+            ]
+        }
+    }
+}

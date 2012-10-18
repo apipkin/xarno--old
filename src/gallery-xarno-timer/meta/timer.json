@@ -1,0 +1,8 @@
+{
+    "gallery-xarno-timer": {
+        "requires": [
+            "base-build",
+            "event-custom"
+        ]
+    }
+}

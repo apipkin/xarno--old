@@ -1,0 +1,8 @@
+{
+    "gallery-xarno-plugin-datatable-row-select": {
+        "requires": [
+            "plugin",
+            "collection"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-text-resizer",
+    "builds": {
+        "gallery-xarno-text-resizer": {
+            "jsfiles": [
+                "text-resizer.js"
+            ]
+        }
+    }
+}
