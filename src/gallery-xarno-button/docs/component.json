@@ -1,11 +1,11 @@
 {
-    "name"       : "gallery-button",
+    "name"       : "gallery-xarno-button",
     "displayName": "Gallery Button",
     "description": "",
     "author"     : "apipkin",
 
     "tags": ["gallery", "widget", "button"],
-    "use" : ["gallery-button"],
+    "use" : ["gallery-xarno-button"],
 
     "examples": []
 }
