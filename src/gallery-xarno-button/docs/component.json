@@ -1,0 +1,11 @@
+{
+    "name"       : "gallery-button",
+    "displayName": "Gallery Button",
+    "description": "",
+    "author"     : "apipkin",
+
+    "tags": ["gallery", "widget", "button"],
+    "use" : ["gallery-button"],
+
+    "examples": []
+}

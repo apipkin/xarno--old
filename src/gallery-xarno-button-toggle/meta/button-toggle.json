@@ -1,0 +1,8 @@
+{
+    "gallery-xarno-button-toggle": {
+        "requires": [
+            "gallery-xarno-button"
+        ],
+        "skinnable": true
+    }
+}

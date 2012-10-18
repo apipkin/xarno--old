@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-dialog",
+    "builds": {
+        "gallery-xarno-dialog": {
+            "jsfiles": [
+                "dialog.js"
+            ]
+        }
+    }
+}

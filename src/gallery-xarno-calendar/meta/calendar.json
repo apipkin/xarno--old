@@ -1,0 +1,10 @@
+{
+    "gallery-xarno-calendar": {
+        "requires": [
+            "base-build",
+            "widget",
+            "widget-stdmod"
+        ],
+        "skinnable": true
+    }
+}

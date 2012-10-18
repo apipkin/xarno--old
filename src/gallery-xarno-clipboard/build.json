@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-clipboard",
+    "builds": {
+        "gallery-xarno-clipboard": {
+            "jsfiles": [
+                "clipboard.js"
+            ]
+        }
+    }
+}

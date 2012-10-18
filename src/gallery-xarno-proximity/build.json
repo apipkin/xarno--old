@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-proximity",
+    "builds": {
+        "gallery-xarno-proximity": {
+            "jsfiles": [
+                "proximity.js"
+            ]
+        }
+    }
+}

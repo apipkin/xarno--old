@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-calendar",
+    "builds": {
+        "gallery-xarno-calendar": {
+            "jsfiles": [
+                "calendar.js"
+            ]
+        }
+    }
+}

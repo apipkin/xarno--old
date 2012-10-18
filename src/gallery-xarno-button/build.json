@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-button",
+    "builds": {
+        "gallery-xarno-button": {
+            "jsfiles": [
+                "button.js"
+            ]
+        }
+    }
+}

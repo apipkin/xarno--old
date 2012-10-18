@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-notify",
+    "builds": {
+        "gallery-xarno-notify": {
+            "jsfiles": [
+                "notify.js"
+            ]
+        }
+    }
+}

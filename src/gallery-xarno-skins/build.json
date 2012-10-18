@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-skins",
+    "builds": {
+        "gallery-xarno-skins": {
+            "jsfiles": [
+                "xarno-skins.js"
+            ]
+        }
+    }
+}

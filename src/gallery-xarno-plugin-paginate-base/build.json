@@ -1,0 +1,10 @@
+{
+    "name": "gallery-xarno-plugin-paginate-base",
+    "builds": {
+        "gallery-xarno-plugin-paginate-base": {
+            "jsfiles": [
+                "plugin-paginate-base.js"
+            ]
+        }
+    }
+}

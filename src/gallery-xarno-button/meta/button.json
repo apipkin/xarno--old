@@ -1,0 +1,10 @@
+{
+    "gallery-xarno-button": {
+        "requires": [
+            "widget",
+            "event-mouseenter",
+            "widget-child"
+        ],
+        "skinnable": true
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "gallery-xarno-plugin-paginate-base": {
+        "requires": [
+            "plugin",
+            "base"
+        ]
+    }
+}

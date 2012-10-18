@@ -1,0 +1,9 @@
+{
+    "gallery-xarno-proximity": {
+        "requires": [
+            "base-build",
+            "event",
+            "plugin"
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+<div class="intro">
+<p>
+<img src="{{componentAssets}}/button.jpg" alt="Screenshot of the Button widget" style="border: 1px solid #bfbfbf; float:right; height:161px; margin: 0 0 8px 8px; width:272px;">
+A widget that creates a button with several mouse events, type, disabled and a label setter. Mouse events that are interacted with are mouseenter, mouseleave, mousedown, mouseup, and click. Mousedown is stored on drag out until mouse is released.
+</p><p>
+Giving the button an icon, allows you to change the look of the button based on a class name. For instance you can have a button with icon "disk", then on click, change the icon to "loading" and set enabled to false. Icons use a generic yui3-icon- class for future skin support.
+</p><p>
+Changing the label will change the title of the button to match the label. If you want to remove the label and set the title, you will need to button.set('label', '').set('title', 'Button Title').
+</p>
+</div>
+
+<h3>Configuring Gallery Button</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>`label`</td>
+      <td>`empty string`</td>
+      <td>
+        Button text. Setting label will also set the title.
+      </td>
+    </tr>
+    <tr>
+      <td>`callback`</td>
+      <td>`null`</td>
+      <td>
+        Default function for button click.
+      </td>
+    </tr>
+    <tr>
+      <td>`enabled`</td>
+      <td>`true`</td>
+      <td>
+        Toggles the ability to click the button. Uses disable attribute on the <button> element.
+      </td>
+    </tr>
+    <tr>
+      <td>`default`</td>
+      <td>`false`</td>
+      <td>
+        Tells parent widget this is the default button. Your application will need to interface this as it has no other purpose than state storage.
+      </td>
+    </tr>
+    <tr>
+      <td>`icon`</td>
+      <td>`default`</td>
+      <td>
+        Allows you to set the icon class for the button. This is used for skinning.
+      </td>
+    </tr>
+    <tr>
+        <td>`iconPosition`</td>
+        <td>`before`</td>
+        <td>
+            Placement of icon in relation to the button label. Options are `before` and `after`.
+        </td>
+    </tr>
+    <tr>
+        <td>`iconTemplate`</td>
+        <td>`<span class="yui3-icon" />`</td>
+        <td>
+            Template used to generate the icon. Icons are typically used by CSS image placement, but this template allows you to add any icon markup required.
+        </td>
+    </tr>
+    <tr>
+        <td>`href`</td>
+        <td>`null`</td>
+        <td>
+            Used in a link button. If `href` is `"#"` or falsey, the default action of the click event is prevented.
+        </td>
+    </tr>
+    <tr>
+      <td>`title`</td>
+      <td>`false`</td>
+      <td>
+        Automatically set with set label, adds a title to the button for accessibility purposes. The title can be set if on an icon only button (no label set).
+      </td>
+    </tr>
+    <tr>
+      <td>`type`</td>
+      <td>`push`</td>
+      <td>
+        If `type` is `submit` or `reset`, the default click event will attempt to find a parent form element to submit or reset. If your button needs to submit or reset a form that it is not contained within, you will need to do the proper bindings in the `callback` config.
+      </td>
+    </tr>
+  </tbody>
+</table>

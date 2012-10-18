@@ -1,0 +1,10 @@
+{
+    "gallery-xarno-button-group": {
+        "requires": [
+            "gallery-xarno-button",
+            "widget-parent",
+            "widget-child"
+        ],
+        "skinnable": true
+    }
+}

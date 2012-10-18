@@ -1,0 +1,14 @@
+{
+    "gallery-xarno-dialog": {
+        "requires": [
+            "gallery-overlay-extras",
+            "gallery-button",
+            "overlay",
+            "widget-anim",
+            "node",
+            "gallery-event-nav-keys",
+            "dd-plugin"
+        ],
+        "skinnable": true
+    }
+}

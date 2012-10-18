@@ -1,0 +1,10 @@
+{
+    "gallery-xarno-clipboard": {
+        "requires": [
+            "node",
+            "event",
+            "base-build",
+            "swf"
+        ]
+    }
+}
