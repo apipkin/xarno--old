@@ -1,0 +1,7 @@
+{
+    "gallery-ordered-hash": {
+        "requires": [
+            "yui-base"
+        ]
+    }
+}

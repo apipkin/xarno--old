@@ -1,0 +1,10 @@
+{
+    "name"       : "gallery-ordered-hash",
+    "displayName": "Gallery: gallery-ordered-hash",
+    "description": "*Summary Goes Here*",
+    "author"     : [ "apipkin" ],
+
+    "tags": [ "gallery" ],
+
+    "examples": []
+}

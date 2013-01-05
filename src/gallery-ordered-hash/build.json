@@ -1,0 +1,10 @@
+{
+    "name": "gallery-ordered-hash",
+    "builds": {
+        "gallery-ordered-hash": {
+            "jsfiles": [
+                "js/gallery-ordered-hash.js"
+            ]
+        }
+    }
+}
