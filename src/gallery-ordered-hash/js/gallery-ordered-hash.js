@@ -6,6 +6,8 @@ Y.OrderedHash = function() {
         },
 
         _getKey = function(obj) {
+            var p;
+
             for (p in obj) {
                 if (obj.hasOwnProperty(p)) {
                     return p;
@@ -105,12 +107,13 @@ Y.OrderedHash = function() {
                 return _arr.length;
             },
 
-            each : function(callback) {
+            each : function(fn, context) {
+
                 var i = 0,
                     l = _arr.length;
 
                 for (i = 0; i < l; i++) {
-                    (callback(/*value*/_obj[_arr[i]], /*key*/_arr[i], /*index*/i));
+                    fn.call(context || this, /*value*/_obj[_arr[i]], /*key*/_arr[i], /*index*/i);
                 }
 
                 return _hash;
