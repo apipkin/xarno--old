@@ -19,7 +19,7 @@ Y.OrderedHash = function() {
 
             return key;
         },
-        _assoc = {
+        _hash = {
 
             push : function() {
                 var i = 0,
@@ -40,7 +40,7 @@ Y.OrderedHash = function() {
                     }
                 }
 
-                return _assoc;
+                return _hash;
             },
 
             pop : function() {
@@ -86,13 +86,13 @@ Y.OrderedHash = function() {
                     }
                 }
 
-                return _assoc;
+                return _hash;
             },
 
             reverse: function() {
                 _arr.reverse();
 
-                return _assoc;
+                return _hash;
             },
 
             splice: function (index, numToRemove, elementsN) {
@@ -119,7 +119,7 @@ Y.OrderedHash = function() {
                     (callback(/*value*/_obj[_arr[i]], /*key*/_arr[i], /*index*/i));
                 }
 
-                return _assoc;
+                return _hash;
             },
 
             setItem : function(index, value) {
@@ -139,7 +139,7 @@ Y.OrderedHash = function() {
                     throw "Key is not already set. Use `push`, `unshift` or ";
                 }
 
-                return _assoc;
+                return _hash;
             },
 
             getItem : function(index) {
@@ -159,7 +159,7 @@ Y.OrderedHash = function() {
                 _arr = [];
                 _obj = {};
 
-                return _assoc;
+                return _hash;
             },
 
             keys: function() {
@@ -194,5 +194,5 @@ Y.OrderedHash = function() {
 
         };
 
-    return _assoc;
+    return _hash;
 };
