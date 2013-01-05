@@ -4,21 +4,15 @@ Y.OrderedHash = function() {
         _keyExists = function (key) {
             return (_obj[key] !== undefined);
         },
-        _getKey = function(obj) {
-            var key = null,
-                p;
 
+        _getKey = function(obj) {
             for (p in obj) {
                 if (obj.hasOwnProperty(p)) {
-                    key = p;
-                }
-                if (key !== null) {
-                    break;
+                    return p;
                 }
             }
-
-            return key;
         },
+
         _hash = {
 
             push : function() {
